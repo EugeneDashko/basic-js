@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * ]) => 3`
  *
  */
-function countCats() {
+function countCats(array) {
     let countT =0;
     let resArr =[];
         for(let i = 0; i < array.length; i++) {
